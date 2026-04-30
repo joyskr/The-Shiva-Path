@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" role="img" aria-label="Ancient manuscript with sacred geometry yantra">
+  <defs>
+    <linearGradient id="paper" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#ead9b7"/>
+      <stop offset="100%" stop-color="#cfac76"/>
+    </linearGradient>
+    <linearGradient id="desk" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#6a4627"/>
+      <stop offset="100%" stop-color="#3a2412"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="900" fill="url(#desk)"/>
+  <rect x="110" y="76" width="980" height="748" rx="28" fill="url(#paper)" stroke="#f0ddbb" stroke-width="6"/>
+  <rect x="142" y="108" width="916" height="684" rx="18" fill="none" stroke="#8b5f31" stroke-width="2.5" opacity=".75"/>
+  <g transform="translate(600 448)" fill="none" stroke="#7b5228">
+    <circle r="250" stroke-width="4"/>
+    <circle r="195" stroke-width="3"/>
+    <circle r="138" stroke-width="2.5"/>
+    <polygon points="0,-240 208,120 -208,120" stroke-width="4"/>
+    <polygon points="0,240 208,-120 -208,-120" stroke-width="4"/>
+    <polygon points="0,-170 148,85 -148,85" stroke-width="3"/>
+    <polygon points="0,170 148,-85 -148,-85" stroke-width="3"/>
+    <path d="M-280 0h560M0 -280v560" stroke-width="1.6" opacity=".6"/>
+    <circle r="14" fill="#7b5228"/>
+  </g>
+  <g fill="none" stroke="#b27f46" stroke-width="3" opacity=".65">
+    <path d="M182 180h120"/><path d="M900 180h118"/>
+    <path d="M182 720h120"/><path d="M900 720h118"/>
+  </g>
+</svg>

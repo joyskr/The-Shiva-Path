@@ -1,0 +1,10 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(wc -l \"D:\\\\Work\\\\The Shiva Path\\\\assets\"/*.svg)",
+      "Bash(python -c ':*)",
+      "Bash(python:*)",
+      "Bash(pip install:*)"
+    ]
+  }
+}

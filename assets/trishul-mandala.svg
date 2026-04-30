@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" role="img" aria-label="Trishula standing before a carved mandala wall">
+  <rect width="1200" height="900" fill="#634125"/>
+  <g transform="translate(600 420)" fill="none" stroke="#edd8b2">
+    <circle r="230" stroke-width="4" opacity=".5"/>
+    <circle r="168" stroke-width="2.8" opacity=".45"/>
+    <circle r="102" stroke-width="2" opacity=".35"/>
+    <path d="M-230 0h460M0 -230v460" stroke-width="1.8" opacity=".3"/>
+    <path d="M0 -250v470" stroke-width="10" stroke-linecap="round"/>
+    <path d="M-76 -128c0-54 42-89 76-122 34 33 76 68 76 122" stroke-width="9" stroke-linecap="round"/>
+    <path d="M-118 -86c-38 0-61-31-61-63 36 0 60 25 72 51" stroke-width="9" stroke-linecap="round"/>
+    <path d="M118 -86c38 0 61-31 61-63-36 0-60 25-72 51" stroke-width="9" stroke-linecap="round"/>
+  </g>
+</svg>

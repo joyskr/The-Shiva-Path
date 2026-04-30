@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" role="img" aria-label="Ancient scroll with Om and karmic circles">
+  <defs>
+    <linearGradient id="paper" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#e8d5ae"/>
+      <stop offset="100%" stop-color="#c6995e"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="900" fill="#4b2f18"/>
+  <rect x="120" y="90" width="960" height="720" rx="26" fill="url(#paper)" stroke="#f0ddbd" stroke-width="5"/>
+  <g transform="translate(600 450)" fill="none" stroke="#7a4f25">
+    <circle r="238" stroke-width="4"/>
+    <circle r="178" stroke-width="3"/>
+    <circle r="120" stroke-width="2.5"/>
+    <path d="M-270 0c95-62 445-62 540 0" stroke-width="3" opacity=".65"/>
+    <path d="M-240 42c82-45 398-45 480 0" stroke-width="2.5" opacity=".52"/>
+  </g>
+  <text x="600" y="492" text-anchor="middle" font-size="142" fill="#7a4f25" font-family="Cinzel,serif">Om</text>
+  <g fill="none" stroke="#b98549" stroke-width="3" opacity=".55">
+    <path d="M188 180h120"/><path d="M892 180h120"/>
+    <path d="M188 718h120"/><path d="M892 718h120"/>
+  </g>
+</svg>

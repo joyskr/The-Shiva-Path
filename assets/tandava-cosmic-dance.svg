@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" role="img" aria-label="Nataraja inspired dance mural">
+  <rect width="1200" height="900" fill="#56361e"/>
+  <circle cx="600" cy="420" r="238" fill="none" stroke="#e8d2a8" stroke-width="6" opacity=".65"/>
+  <circle cx="600" cy="420" r="196" fill="none" stroke="#c7985b" stroke-width="3" opacity=".45"/>
+  <g fill="none" stroke="#f0ddb5" stroke-linecap="round" stroke-linejoin="round">
+    <circle cx="604" cy="290" r="46" fill="#4a2c17" stroke-width="4"/>
+    <path d="M603 336l-18 120" stroke-width="9"/>
+    <path d="M586 375l-132 62" stroke-width="8"/>
+    <path d="M604 362l122 80" stroke-width="8"/>
+    <path d="M585 455l-118 154" stroke-width="9"/>
+    <path d="M585 454l160 94" stroke-width="9"/>
+    <path d="M615 350l84-84" stroke-width="7"/>
+    <path d="M568 356l-84-72" stroke-width="7"/>
+  </g>
+  <g fill="#d7aa6b" opacity=".72">
+    <circle cx="370" cy="420" r="10"/><circle cx="830" cy="420" r="10"/><circle cx="600" cy="182" r="10"/>
+    <circle cx="600" cy="658" r="10"/><circle cx="437" cy="245" r="8"/><circle cx="763" cy="245" r="8"/>
+  </g>
+</svg>

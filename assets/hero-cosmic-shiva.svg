@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" role="img" aria-label="Ancient Shiva mural in a temple setting">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#23140b"/>
+      <stop offset="55%" stop-color="#5b3920"/>
+      <stop offset="100%" stop-color="#7a5230"/>
+    </linearGradient>
+    <radialGradient id="sun" cx="50%" cy="30%" r="28%">
+      <stop offset="0%" stop-color="#f2d9a4" stop-opacity=".95"/>
+      <stop offset="100%" stop-color="#f2d9a4" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="floor" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#6f4929"/>
+      <stop offset="100%" stop-color="#2b190d"/>
+    </linearGradient>
+  </defs>
+  <rect width="1600" height="900" fill="url(#bg)"/>
+  <rect x="30" y="26" width="1540" height="848" rx="18" fill="none" stroke="#cfa36b" stroke-width="4" opacity=".45"/>
+  <ellipse cx="800" cy="280" rx="300" ry="210" fill="url(#sun)"/>
+  <path d="M0 680h1600v220H0z" fill="url(#floor)"/>
+  <g opacity=".32" fill="#e7c892">
+    <path d="M115 130h70v550h-70z"/><path d="M1415 130h70v550h-70z"/>
+    <path d="M255 200h52v480h-52z"/><path d="M1293 200h52v480h-52z"/>
+  </g>
+  <g fill="none" stroke="#d8b277" opacity=".4">
+    <path d="M150 180h1300"/><path d="M150 650h1300"/>
+    <path d="M225 220h1150"/><path d="M225 610h1150"/>
+  </g>
+  <g fill="#d7b37b" opacity=".22">
+    <circle cx="270" cy="170" r="3"/><circle cx="360" cy="255" r="2.4"/><circle cx="1180" cy="160" r="2.6"/>
+    <circle cx="1330" cy="250" r="2.4"/><circle cx="250" cy="500" r="2.6"/><circle cx="1360" cy="540" r="2.8"/>
+  </g>
+  <path d="M520 640c70-30 150-45 280-45 122 0 207 14 280 45" fill="none" stroke="#dcb987" stroke-width="6" opacity=".55"/>
+  <g>
+    <circle cx="800" cy="330" r="88" fill="#402617" stroke="#e6c993" stroke-width="5"/>
+    <path d="M742 319c27-58 89-74 117 0" fill="none" stroke="#c69b5e" stroke-width="6" stroke-linecap="round"/>
+    <ellipse cx="800" cy="330" rx="16" ry="30" fill="#f4d89d"/>
+    <circle cx="800" cy="315" r="6" fill="#fff3d2"/>
+    <path d="M646 585c28-88 83-149 154-149 69 0 126 61 154 149" fill="none" stroke="#edd8af" stroke-width="12" stroke-linecap="round"/>
+    <path d="M590 680c56-48 120-72 210-72 90 0 154 24 210 72" fill="none" stroke="#e6c38a" stroke-width="9" stroke-linecap="round"/>
+    <path d="M556 720c71-34 151-49 244-49 95 0 177 15 244 49" fill="none" stroke="#b88a51" stroke-width="5" stroke-linecap="round" opacity=".8"/>
+  </g>
+  <g fill="none" stroke="#f0ddb7" stroke-width="5" stroke-linecap="round" opacity=".86">
+    <path d="M1120 200v250"/><path d="M1086 222c0-14 11-25 34-35 23 10 34 21 34 35"/>
+    <path d="M1065 242c0-10 8-18 20-23v18c0 10-8 18-20 23"/>
+    <path d="M1175 242c0-10-8-18-20-23v18c0 10 8 18 20 23"/>
+    <path d="M234 642c0-28 24-45 56-45 33 0 56 17 56 45H234z" opacity=".35"/>
+    <path d="M1254 642c0-28 24-45 56-45 33 0 56 17 56 45h-112z" opacity=".35"/>
+  </g>
+</svg>

@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" role="img" aria-label="Ancient forehead mural with glowing Shiva eye">
+  <defs>
+    <radialGradient id="g" cx="50%" cy="50%" r="34%">
+      <stop offset="0%" stop-color="#f1d89f"/>
+      <stop offset="100%" stop-color="#6a4223"/>
+    </radialGradient>
+  </defs>
+  <rect width="1200" height="900" fill="#5e3c21"/>
+  <path d="M180 630c72-212 200-316 420-316 220 0 348 104 420 316" fill="none" stroke="#e7cca0" stroke-width="14" opacity=".4"/>
+  <ellipse cx="600" cy="450" rx="188" ry="96" fill="#4c2e18" stroke="#ecd4aa" stroke-width="5"/>
+  <circle cx="600" cy="450" r="58" fill="url(#g)"/>
+  <circle cx="600" cy="450" r="22" fill="#fff1ce"/>
+  <path d="M600 322v-70" fill="none" stroke="#e7cca0" stroke-width="5" stroke-linecap="round"/>
+  <path d="M530 340l-24-34" fill="none" stroke="#cfa16b" stroke-width="4" stroke-linecap="round"/>
+  <path d="M670 340l24-34" fill="none" stroke="#cfa16b" stroke-width="4" stroke-linecap="round"/>
+</svg>

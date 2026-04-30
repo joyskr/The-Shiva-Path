@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" role="img" aria-label="Two seekers in a temple courtyard with meditative atmosphere">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#4d3019"/>
+      <stop offset="100%" stop-color="#8a6138"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="50%" cy="28%" r="30%">
+      <stop offset="0%" stop-color="#efd49f" stop-opacity=".8"/>
+      <stop offset="100%" stop-color="#efd49f" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="1200" height="900" fill="url(#bg)"/>
+  <ellipse cx="600" cy="250" rx="230" ry="160" fill="url(#glow)"/>
+  <path d="M0 710h1200v190H0z" fill="#392110"/>
+  <g fill="none" stroke="#d9b67e" opacity=".35">
+    <path d="M180 160h840"/><path d="M220 220h760"/><path d="M180 680h840"/>
+  </g>
+  <g opacity=".24" fill="#e7cc98">
+    <path d="M140 150h60v560h-60z"/><path d="M1000 150h60v560h-60z"/>
+  </g>
+  <g fill="none" stroke="#f2deb7" stroke-linecap="round">
+    <circle cx="460" cy="356" r="58" fill="#4a2d17" stroke-width="4"/>
+    <path d="M390 606c30-102 66-164 128-164 61 0 99 62 129 164" stroke-width="10"/>
+    <path d="M366 675c42-40 91-60 152-60 60 0 109 20 151 60" stroke-width="8"/>
+    <circle cx="736" cy="356" r="58" fill="#4a2d17" stroke-width="4"/>
+    <path d="M666 606c30-102 66-164 128-164 61 0 99 62 129 164" stroke-width="10"/>
+    <path d="M642 675c42-40 91-60 152-60 60 0 109 20 151 60" stroke-width="8"/>
+  </g>
+  <g fill="#d3a45f" opacity=".6">
+    <circle cx="600" cy="650" r="12"/>
+    <circle cx="560" cy="652" r="7"/><circle cx="640" cy="652" r="7"/>
+  </g>
+</svg>

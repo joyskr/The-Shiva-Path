@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" role="img" aria-label="Shiva meditating in a Himalayan cave">
+  <defs>
+    <linearGradient id="cave" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#2b170d"/>
+      <stop offset="100%" stop-color="#6f4928"/>
+    </linearGradient>
+    <radialGradient id="moon" cx="50%" cy="26%" r="24%">
+      <stop offset="0%" stop-color="#edd29e" stop-opacity=".9"/>
+      <stop offset="100%" stop-color="#edd29e" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="1600" height="900" fill="url(#cave)"/>
+  <ellipse cx="800" cy="240" rx="280" ry="180" fill="url(#moon)"/>
+  <path d="M0 0c180 60 260 180 310 348 36 120 77 178 180 258H0z" fill="#1f1109" opacity=".78"/>
+  <path d="M1600 0c-180 60-260 180-310 348-36 120-77 178-180 258h490z" fill="#1f1109" opacity=".78"/>
+  <path d="M0 700h1600v200H0z" fill="#321b0e"/>
+  <g fill="none" stroke="#efd9b2" stroke-linecap="round">
+    <circle cx="800" cy="370" r="82" fill="#442717" stroke-width="4.5"/>
+    <ellipse cx="800" cy="382" rx="15" ry="28" fill="#f1d69d" stroke="none"/>
+    <path d="M660 596c28-96 80-154 140-154 62 0 116 58 141 154" stroke-width="11"/>
+    <path d="M610 678c52-50 116-73 190-73 74 0 138 23 190 73" stroke-width="8"/>
+  </g>
+  <g fill="none" stroke="#c99f67" stroke-width="4" opacity=".7">
+    <path d="M440 532c26 12 51 18 77 18"/><path d="M1083 550c29 0 53-6 77-19"/>
+  </g>
+</svg>
