@@ -158,10 +158,10 @@ img { max-width: 100%; display: block; }
   position: relative;
   min-height: calc(100vh - var(--header-h));
   display: flex;
-  align-items: center;
+  align-items: flex-end;
   justify-content: center;
   isolation: isolate;
-  padding: 84px 0;
+  padding: 84px 0 50px;
   overflow: hidden;
 }
 
@@ -177,22 +177,7 @@ img { max-width: 100%; display: block; }
   width: 100%;
   height: 100%;
   object-fit: cover;
-  filter: sepia(0.75) saturate(0.7) contrast(1.05);
-}
-
-.hero-overlay {
-  position: absolute;
-  inset: 0;
-  background: linear-gradient(180deg, rgba(28, 17, 9, 0.72) 0%, rgba(44, 28, 14, 0.65) 55%, rgba(36, 21, 10, 0.24) 100%);
-}
-
-.hero-fade {
-  position: absolute;
-  bottom: -2px;
-  left: 0;
-  width: 100%;
-  height: 190px;
-  background: linear-gradient(180deg, rgba(238, 221, 188, 0) 0%, rgba(238, 221, 188, 1) 90%);
+  filter: none;
 }
 
 .hero-content {
@@ -216,7 +201,7 @@ img { max-width: 100%; display: block; }
 }
 
 .hero-actions {
-  margin-top: 34px;
+  margin-top: 0;
   display: flex;
   justify-content: center;
   gap: 14px;
@@ -325,6 +310,26 @@ img { max-width: 100%; display: block; }
   stroke-linejoin: round;
 }
 
+.mini-sigil-row.media-cards .mini-icon {
+  width: 180px;
+  height: 104px;
+  padding: 0;
+  gap: 0;
+  overflow: hidden;
+}
+
+.mini-sigil-row.media-cards .mini-icon img {
+  width: 100%;
+  height: 100%;
+  flex: 0 0 auto;
+  object-fit: cover;
+  border-radius: inherit;
+}
+
+#karma .mini-sigil-row.media-cards .mini-icon img {
+  object-position: center top;
+}
+
 .micro-icon .icon-name,
 .mini-icon .icon-name {
   display: block;
@@ -385,6 +390,15 @@ h2 { font-size: clamp(2rem, 4.2vw, 3.6rem); margin-bottom: 16px; }
   pointer-events: none;
 }
 
+.image-frame.no-mask img {
+  filter: none;
+  transform: none;
+}
+
+.image-frame.no-mask::after {
+  display: block;
+}
+
 .centered-head { text-align: center; }
 .centered-head p { font-size: 1.22rem; margin: 0 auto; max-width: 800px; }
 
@@ -392,16 +406,26 @@ h2 { font-size: clamp(2rem, 4.2vw, 3.6rem); margin-bottom: 16px; }
   display: grid;
   grid-template-columns: repeat(4, minmax(200px, 1fr));
   gap: 24px;
-  margin-top: 44px;
+  margin-top: 0;
 }
 
 .teach-card {
   background: linear-gradient(180deg, #f1dfbf 0%, #e9d1a8 100%);
   border: 1px solid rgba(98, 66, 34, 0.3);
   border-radius: 16px;
-  padding: 30px 24px;
+  padding: 0;
+  overflow: hidden;
   box-shadow: 0 6px 20px rgba(28, 16, 7, 0.12);
   transition: transform 0.24s ease, box-shadow 0.24s ease;
+}
+
+.teach-card img {
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+  border-radius: 0;
+  border: 0;
+  display: block;
 }
 
 .teach-card:hover,
@@ -421,9 +445,6 @@ h2 { font-size: clamp(2rem, 4.2vw, 3.6rem); margin-bottom: 16px; }
   font-size: 1.45rem;
   margin-bottom: 14px;
 }
-
-.teach-card h3 { font-size: 1.65rem; margin-bottom: 10px; }
-.teach-card p { font-size: 1.06rem; margin: 0; }
 
 .section-dark {
   position: relative;
@@ -491,7 +512,14 @@ h2 { font-size: clamp(2rem, 4.2vw, 3.6rem); margin-bottom: 16px; }
   background: linear-gradient(180deg, rgba(244, 227, 197, 0.72), rgba(205, 167, 115, 0.42));
 }
 
-.journal-card h3 { font-size: 1.5rem; margin-top: 12px; }
+.journal-card .review-quote {
+  margin: 12px 0 0;
+  font-size: 1.4rem;
+  line-height: 1.55;
+  color: var(--muted);
+  font-family: 'Cormorant Garamond', serif;
+  letter-spacing: 0;
+}
 
 .quote-section {
   background: linear-gradient(180deg, #ead6b1 0%, #e2cca5 100%);
@@ -521,6 +549,9 @@ h2 { font-size: clamp(2rem, 4.2vw, 3.6rem); margin-bottom: 16px; }
 
 .mission-wrap,
 .newsletter-wrap { max-width: 860px; }
+
+.mission-wrap { text-align: center; }
+.mission-wrap p { text-align: left; }
 
 .newsletter-wrap { text-align: center; }
 .newsletter-wrap p { font-size: 1.18rem; margin-bottom: 24px; }
@@ -592,8 +623,14 @@ h2 { font-size: clamp(2rem, 4.2vw, 3.6rem); margin-bottom: 16px; }
   place-items: center;
   font: 700 0.85rem 'Cinzel', serif;
   background: #5a381c;
-  color: #f5dfba;
+  color: var(--earth-200);
   transition: transform 0.2s ease, background 0.2s ease;
+}
+
+.social-icons a svg {
+  width: 22px;
+  height: 22px;
+  display: block;
 }
 
 .social-icons a:hover { transform: translateY(-2px); background: #42270f; }
@@ -737,7 +774,7 @@ footer a { display: block; margin-bottom: 6px; }
 
   .hero {
     min-height: calc(100vh - var(--header-h));
-    padding: 70px 0;
+    padding: 70px 0 50px;
   }
 
   .image-frame img { min-height: 280px; }
